@@ -71,4 +71,12 @@ with open("Proposta de pagamento.ppsx", "rb") as file:
         mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
     )
 
+with open("Proposta de pagamento.ppsx", "rb") as file:
+    st.download_button(
+        label="📥 Transações Contábeis",
+        data=file,
+        file_name="Transações contábeis.ppsx",  # Nome para download (pode ser diferente)
+        mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+    )
+
 
