@@ -30,7 +30,7 @@ st.markdown("**`Guia de apoio para os colaboradores`**")
 
 # Introdução
 st.markdown("""
-### 📥 Bem-vindo(a) à Página de Manuais dos Colaboradores
+###  Bem-vindo(a) à Página de Manuais dos Colaboradores
 
 Este espaço foi criado para reunir os principais manuais, orientações e procedimentos que apoiam o dia a dia dos colaboradores.  
 Aqui você encontrará informações úteis sobre processos internos, ferramentas utilizadas, boas práticas e responsabilidades de cada área.
