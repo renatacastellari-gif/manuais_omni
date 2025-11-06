@@ -61,11 +61,13 @@ with open("manual de criação de miro.ppsx", "rb") as file:
         file_name="manual de criação de miro.ppsx",
         mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
     )
- with open("Proposta de Pagamento.ppsx", "rb") as file:
+ 
+
+with open("Proposta de pagamento.ppsx", "rb") as file:
     st.download_button(
         label="📥 Proposta de Pagamento",
         data=file,
-        file_name="Proposta de pagamento.ppsx",
+        file_name="Proposta_de_pagamento.ppsx",  # Nome para download (pode ser diferente)
         mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
     )
 
