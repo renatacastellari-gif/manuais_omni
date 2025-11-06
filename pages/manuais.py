@@ -5,7 +5,7 @@ st.set_page_config(page_title="Manual de Conciliação", layout="wide")
 st.title("📘 Manual de Conciliação com Imagens")
 
 st.markdown("### 📥 Baixe o arquivo original:")
-with open("Apresentação conciliação.pptx", "rb") as file:
+with open("Apresentação conciliação5.ppsx", "rb") as file:
     st.download_button(
         label="📎 Baixar apresentação",
         data=file,
