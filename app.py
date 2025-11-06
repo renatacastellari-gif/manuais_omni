@@ -33,9 +33,9 @@ if not st.session_state.logged_in:
 else:
     # 🔒 Conteúdo protegido
     st.image('teste.svg', width=400) 
-    st.title('Conciliações dos Impostos')
-    ("""**`Competência: 09/2025`** """)
-    st.write('💜 💜:purple_heart: 💜💜💜💜💜💜💜💜')
+    st.title('MANUAIS')
+    ("""**`Guia de apoio para os colaboradores`** """)
+
 
     st.markdown("""
     ## Seja bem vindo(a) à Página de Manuais dos Colaboradores
@@ -56,4 +56,5 @@ Explore os conteúdos disponíveis e, em caso de dúvidas ou sugestões, entre e
              
  
 """)
+
 
