@@ -26,7 +26,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Nome da colaboradora
-st.markdown("**`Colaboradora: Patricia`**")
+st.markdown("**`Guia de apoio para os colaboradores`**")
 
 # Introdução
 st.markdown("""
