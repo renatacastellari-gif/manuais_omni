@@ -9,13 +9,10 @@ with open("Apresentação conciliação5.ppsx", "rb") as file:
     st.download_button(
         label="📎 Baixar apresentação",
         data=file,
-        file_name="Apresentação conciliação.pptx",
-        mime="application/vnd.openxmlformats-officedocument.presentationml.presentation"
+        file_name="Apresentação conciliação.ppsx",  # Nome correto
+        mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"  # MIME para PPSX
     )
 
 st.markdown("### 🖼️ Visualização dos slides:")
-
-# Exemplo de exibição de imagem (você precisa salvar as imagens dos slides como arquivos .png ou .jpg)
 st.image("slide_01.png", caption="Slide 1 - Conciliação")
 st.image("slide_02.png", caption="Slide 2 - Relatório CORBIZ")
-# ... repetir para os demais slides
