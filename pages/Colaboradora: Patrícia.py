@@ -41,4 +41,11 @@ with open("Apresentação conciliação5.ppsx", "rb") as file:
         mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"  # MIME para PPSX
     )
 
+with open("contabilização de folha de pagamento.ppsx", "rb") as file:
+    st.download_button(
+        label="📥 Conciliação",
+        data=file,
+        file_name="Apresentação conciliação.ppsx",  # Nome correto
+        mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"  # MIME para PPSX
+    )
 
