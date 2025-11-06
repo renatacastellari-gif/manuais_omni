@@ -11,10 +11,10 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.image("teste.svg", width=300)
 
-# Título principal estilizado
+
 st.markdown("""
 <h2 style="
-    color:#9B4DCC;
+    color:#FFFDD0;
     font-family:'Montserrat',sans-serif;
     font-weight:700;
     text-align:center;
@@ -24,6 +24,7 @@ st.markdown("""
 📘 Manuais
 </h2>
 """, unsafe_allow_html=True)
+
 
 # Nome da colaboradora
 st.markdown("**`Guia de apoio para os colaboradores`**")
