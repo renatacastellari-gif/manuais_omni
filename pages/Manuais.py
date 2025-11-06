@@ -31,15 +31,8 @@ st.markdown("""
 
 
 
-st.markdown("### 📥 Baixe o Manual:")
-with open("Apresentação conciliação5.ppsx", "rb") as file:
-    st.download_button(
-        label="📥 Conciliação",
-        data=file,
-        file_name="Apresentação conciliação.ppsx",  # Nome correto
-        mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"  # MIME para PPSX
-    )
+st.markdown("### 📥 Bem-vindo(a) à Página de Manuais dos Colaboradores
+Este espaço foi criado para reunir os principais manuais, orientações e procedimentos que apoiam o dia a dia dos colaboradores. Aqui você encontrará informações úteis sobre processos internos, ferramentas utilizadas, boas práticas e responsabilidades de cada área.
+Nosso objetivo é facilitar o acesso ao conhecimento, promover autonomia e garantir que todos tenham os recursos necessários para desempenhar suas atividades com excelência.
+Explore os conteúdos disponíveis e, em caso de dúvidas ou sugestões, entre em contato")
 
-st.markdown("### 🖼️ Visualização dos slides:")
-st.image("slide_01.png", caption="Slide 1 - Conciliação")
-st.image("slide_02.png", caption="Slide 2 - Relatório CORBIZ")
