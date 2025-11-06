@@ -34,7 +34,7 @@ st.markdown("""
 st.markdown("### 📥 Baixe o Manual:")
 with open("Apresentação conciliação5.ppsx", "rb") as file:
     st.download_button(
-        label="📎 Baixar apresentação",
+        label="📎 Baixar Conciliação",
         data=file,
         file_name="Apresentação conciliação.ppsx",  # Nome correto
         mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"  # MIME para PPSX
