@@ -1,19 +1,19 @@
 import streamlit as st
 
-# Configuração da página (apenas uma vez)
-st.set_page_config(page_title="Manuais", page_icon="🟣", layout="wide")
+st.set_page_config(page_title="Manual de Conciliação")
 
-# Primeiro logo centralizado
+st.set_page_config(
+    page_title="Manuais",
+    page_icon="🟣",
+)
+
+
+
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image("logo_principal.svg", width=300)  # Substitua pelo nome do primeiro logo
-
-# Segundo logo abaixo, também centralizado
-col4, col5, col6 = st.columns([1, 2, 1])
-with col5:
-    st.image("logo_secundario.png", width=250)  # Substitua pelo nome do segundo logo
-
-# Título estilizado
+    st.image("teste.svg", width=300)
+    
+# Título principal
 st.markdown("""
 <h2 style="
     color:#9B4DCC;
@@ -23,33 +23,28 @@ st.markdown("""
     border-bottom:2px solid #FFA500;
     padding-bottom:8px;
     margin-bottom:20px;">
-📘 Manuais
+📘Manuais
 </h2>
 """, unsafe_allow_html=True)
 
-# Informações adicionais
-st.markdown("**`Colaboradora: Patricia`**")
+("""**`Colaboradora: Patricia`** """)
 
-# Botões de download organizados
-st.markdown("### 📥 Baixe os Manuais:")
 
-# Linha com dois botões lado a lado
-col_a, col_b = st.columns(2)
 
-with col_a:
-    with open("Apresentação conciliação5.ppsx", "rb") as file:
-        st.download_button(
-            label="📥 Conciliação",
-            data=file,
-            file_name="Apresentação_conciliacao.ppsx",
-            mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
-        )
+st.markdown("### 📥 Baixe o Manual:")
+with open("Apresentação conciliação5.ppsx", "rb") as file:
+    st.download_button(
+        label="📥 Conciliação",
+        data=file,
+        file_name="Apresentação conciliação.ppsx",  # Nome correto
+        mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"  # MIME para PPSX
+    )
 
-with col_b:
-    with open("contabilização de folha de pagamento.ppsx", "rb") as file:
-        st.download_button(
-            label="📥 Folha de Pagamento",
-            data=file,
-            file_name="Contabilizacao_Folha.ppsx",
-            mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
-        )
+# segu
+with open("contabilizacao_folha.ppsx", "rb") as file:
+    st.download_button(
+        label="📥 Contabilização de Folha",
+        data=file,
+        file_name="Contabilizacao_Folha.ppsx",
+        mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+    )
