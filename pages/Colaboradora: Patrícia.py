@@ -54,4 +54,12 @@ with open("entrada de importação.ppsx", "rb") as file:
         mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
     )
 
+with open("manual de criação de miro.ppsx", "rb") as file:
+    st.download_button(
+        label="📥 Manual de Criação de Miro",
+        data=file,
+        file_name="manual de criação de miro.ppsx",
+        mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+    )
+
 
