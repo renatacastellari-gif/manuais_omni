@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Configuração da página
+# Configuração da página (apenas uma vez)
 st.set_page_config(page_title="Manuais", page_icon="🟣", layout="wide")
 
 # Primeiro logo centralizado
@@ -41,7 +41,7 @@ with col_a:
         st.download_button(
             label="📥 Conciliação",
             data=file,
-            file_name="Apresentação conciliação.ppsx",
+            file_name="Apresentação_conciliacao.ppsx",
             mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
         )
 
@@ -50,8 +50,6 @@ with col_b:
         st.download_button(
             label="📥 Folha de Pagamento",
             data=file,
-            file_name="contabilização_folha.ppsx",
+            file_name="Contabilizacao_Folha.ppsx",
             mime="application/vnd.openxmlformats-officedocument.presentationml.slideshow"
         )
-
-# Se quiser adicionar mais botões, repita o padrão acima
