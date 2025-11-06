@@ -38,23 +38,22 @@ else:
     st.write('💜 💜:purple_heart: 💜💜💜💜💜💜💜💜')
 
     st.markdown("""
-    ## Seja bem vindo(a)
+    ## Seja bem vindo(a) à Página de Manuais dos Colaboradores
     
-Esta aplicação apresenta as **demonstrações das conciliações entre os saldos fiscais e contábeis (Razão)**, destacando as **diferenças identificadas** e seus respectivos detalhes.
 
-O objetivo é oferecer uma visão clara e organizada para apoiar:
-- **Apuração dos impostos** (ICMS, PIS, COFINS, etc.)
-- **Validação dos lançamentos contábeis**
-- **Identificação de ajustes necessários**
+Este espaço foi criado para reunir os principais manuais, orientações e procedimentos que apoiam o dia a dia dos colaboradores.  
+Aqui você encontrará informações úteis sobre processos internos, ferramentas utilizadas, boas práticas e responsabilidades de cada área.
 
+Nosso objetivo é facilitar o acesso ao conhecimento, promover autonomia e garantir que todos tenham os recursos necessários para desempenhar suas atividades com excelência.
+
+Explore os conteúdos disponíveis e, em caso de dúvidas ou sugestões, entre em contato com o time responsável.
+
+
+
+            
 
                 
-
-✅ Navegue pelas abas para consultar as diferenças do mês.
-                
-
----
-
-> **Objetivo:** Garantir o alinhamento entre os saldos fiscais e contábeis, prevenindo divergências nos registros.              
+             
  
 """)
+
