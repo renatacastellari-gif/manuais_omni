@@ -21,7 +21,7 @@ st.markdown("""
     border-bottom:2px solid #FFA500;
     padding-bottom:8px;
     margin-bottom:20px;">
-📘 Manuais
+📘 MANUAIS
 </h2>
 """, unsafe_allow_html=True)
 
