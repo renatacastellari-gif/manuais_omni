@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 
@@ -90,13 +89,3 @@ elif selected_section == "8. Conciliação cartões WEB":
     - Excluir chaves “BBB” e “9207490”
     - Conta SAP: 1000620 e 1000219
     """)
-
----
-
-### 📦 Próximo passo
-
-Posso gerar o código completo do app com base nessa estrutura e incluir:
-- Upload e tratamento de arquivos
-- Exportação para Excel
-- Visualizações interativas
-
