@@ -37,8 +37,8 @@ else:
         st.image('teste.svg', width=300)
 
     st.markdown("""
-    <h2 style='text-align:center; color:#9B4DCC; font-family:Montserrat; font-weight:700;'>
-    📘 Manuais de Conciliação
+    <h2 style='text-align:center; color:#FFA500 ; font-family:Montserrat; font-weight:700;'>
+    📘 MANUAIS
     </h2>
     """, unsafe_allow_html=True)
 
@@ -54,3 +54,4 @@ else:
         </p>
     </div>
     """, unsafe_allow_html=True)
+
