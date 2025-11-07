@@ -34,7 +34,7 @@ st.markdown("### 📥 Baixe o Manual:")
 # 📄 Download do PDF
 with open("TaxOne_Livro_Fiscal.pdf", "rb") as file:
     st.download_button(
-        label="📄 Livro Fiscal - TaxOne",
+        label="📥 Livro Fiscal - TaxOne",
         data=file,
         file_name="TaxOne_Livro_Fiscal.pdf",
         mime="application/pdf"
