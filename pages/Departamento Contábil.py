@@ -32,7 +32,7 @@ st.markdown("""
 st.markdown("### 📥 Baixe o Manual:")
 
 # 📄 Download do PDF
-with open("Untitled Tutorial.pdf", "rb") as file:
+with open("Untitled Tutorial (1).pdf", "rb") as file:
     st.download_button(
         label="📥 FB60 Lançamentos Impostos",
         data=file,
